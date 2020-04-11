@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.amity.Amity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.amity.Semester"
+            android:label="@string/title_activity_semester" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Course1"
+            android:label="@string/title_activity_course1" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Course2"
+            android:label="@string/title_activity_course2" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Course3"
+            android:label="@string/title_activity_course3" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Course4"
+            android:label="@string/title_activity_course4" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Book1"
+            android:label="@string/title_activity_book1" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Book2"
+            android:label="@string/title_activity_book2" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Book3"
+            android:label="@string/title_activity_book3" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Book4"
+            android:label="@string/title_activity_book4" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Paper1"
+            android:label="@string/title_activity_paper1" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Notes1"
+            android:label="@string/title_activity_notes1" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Paper2"
+            android:label="@string/title_activity_paper2" >
+        </activity>
+        <activity
+            android:name="com.example.amity.Notes2"
+            android:label="@string/title_activity_notes2" >
+        </activity>
+    </application>
+
+</manifest>
